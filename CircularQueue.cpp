@@ -94,6 +94,15 @@ public:
                 cout << queue_array[FRONT_Position] <<" ";
                 FRONT_Position++;
             }
+
+            FRONT_Position = 0;
+
+            while (FRONT_Position <= REAR_Position)
+            {
+                cout << queue_array[FRONT_Position] << " ";
+                FRONT_Position++;
+            }
+            cout << endl;
         }
     }
 };
